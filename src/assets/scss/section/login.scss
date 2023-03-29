@@ -1,0 +1,15 @@
+.login {
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &-input {
+        width: 30%;
+    }
+    &-validation-text {
+        color: red;
+        height: 25px;
+    }
+}
